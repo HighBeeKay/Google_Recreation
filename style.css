@@ -1,0 +1,100 @@
+body p{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 15%;
+    padding: 2em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline
+}
+
+nav img{
+    height: 20px;
+    
+}
+img:hover{
+    text-decoration: underline;
+}
+main{
+    width: 50%;
+    margin: 5.5em auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 28px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+}
+
+input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.container img{
+    height: 25px;
+}
+.container:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.offered {
+    margin-top: 0.8rem;
+}
+
+.button-tag {
+    margin-top: 1em;
+}
+.button-tag button{
+    padding: 1em;
+    border: none; 
+}
+div p{
+    padding: 0.5em;
+}
+div a{
+    color: darkblue;
+}
+
+footer {
+    background-color: rgb(247, 244, 244);
+}
+.footer-top{
+    padding: 0.5em;
+}
+.footer-bottom{
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray; 
+}
+
+.middle{
+    color: black;
+}
+.left a{
+    color: black;
+    margin-right: 1em;
+}
+.right a{
+    color: black;
+    margin-right: 1em;
+}
+
